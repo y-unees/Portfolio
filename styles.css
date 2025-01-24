@@ -33,7 +33,11 @@ html {
   border-bottom: 1px solid #212020; 
   transition: border 0.1s ease-in-out;
 }
-  
+
+.navbar-brand img{
+  width: 140px;
+  height: 70px;
+}
 
 .custom-btn {
   border: 2px solid white; 
