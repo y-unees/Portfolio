@@ -6,7 +6,7 @@ This is my personal portfolio website showcasing my skills, education, projects,
 - **Responsive Design**: The portfolio is optimized for all screen sizes, providing a seamless experience on both desktop and mobile devices.
 - **Skills Section**: Highlights my skills with progress bars showing proficiency levels.
 - **Education Timeline**: Displays my educational background with a visual timeline.
-- **Projects**: Showcases some of my key projects, which are yet to be done.
+- **Projects**: Showcases some of my key projects, which are yet to be done though.
 - **Contact Form**: A contact form section to allow visitors to reach out.
 
 ## Technologies Used
