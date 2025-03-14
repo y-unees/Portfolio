@@ -25,6 +25,12 @@ body {
 .title {
     font-size: 2em;
     margin-bottom: 20px;
+    color: #AAB99A;
+}
+
+h4 {
+    color: #add8e6;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .extras-grid {
