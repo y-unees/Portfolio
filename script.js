@@ -1,16 +1,25 @@
-//Collapse the Navbar when any links are clicked
+// Collapse the Navbar when any links are clicked
 document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
-  link.addEventListener('click', () => {
+  link.addEventListener('click', (e) => {
     const navbarCollapse = document.getElementById('navbarNav');
     const navbarToggler = document.querySelector('.navbar-toggler');
 
     if (navbarCollapse.classList.contains('show')) {
       navbarToggler.click();
     }
+
+    // Get the target section's ID from the link's href attribute
+    const target = document.querySelector(link.getAttribute('href'));
+
+    window.scrollTo({
+      top: target.offsetTop - document.querySelector('.navbar').offsetHeight,
+      behavior: 'smooth'
+    });
+    e.preventDefault();
   });
 });
 
-//Collapse the navbar when the "Get in Touch" button is pressed
+// Collapse the navbar when the "Get in Touch" button is pressed
 document.querySelector('.custom-btn').addEventListener('click', () => {
   const navbarCollapse = document.getElementById('navbarNav');
   const navbarToggler = document.querySelector('.navbar-toggler');
@@ -20,7 +29,7 @@ document.querySelector('.custom-btn').addEventListener('click', () => {
   }
 });
 
-//Navbar Border when scrolling
+// Navbar Border when scrolling
 document.addEventListener("scroll", function () {
   const navbar = document.querySelector(".navbar");
   if (window.scrollY > 50) {
@@ -41,8 +50,8 @@ window.onscroll = function() {
   }
 };
 
-//Browsers:
+// Browsers:
 function topFunction() {
-  document.body.scrollTop = 0 //for safari
-  document.documentElement.scrollTop = 0; //for chrome, firefox, etc
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, etc.
 }
