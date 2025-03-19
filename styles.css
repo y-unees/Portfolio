@@ -270,19 +270,15 @@ html {
 
 .go-to-extras {
   background-color: var(--secondary-color);
+  color: var(--primary-color);
   border: none;
   padding: 12px;
   border-radius: 5px;
+  font-size: 1.2rem;
 }
 
 .go-to-extras:hover {
   background-color: var(--tertiary-color);
-}
-
-.go-to-extras a {
-  text-decoration: none;
-  color: var(--primary-color);
-  font-size: 1.2rem;
 }
 
 .contact-section {
