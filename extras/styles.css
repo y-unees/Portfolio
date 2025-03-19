@@ -1,3 +1,10 @@
+:root{
+  --primary-color: #06566e;
+  --secondary-color: #fff;
+  --tertiary-color: #AAB99A;
+  --forth-color: #083e4e;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #06566e;
@@ -71,6 +78,24 @@ h4 {
     padding: 10px;
     text-align: center;
     font-weight: bold;
+}
+
+.back-button a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.back-button a:hover {
+  background-color: var(--tertiary-color);
+  color: black;
+}
+
+.back {
+    margin: 20px;
+  background-color: var(--forth-color);
+  color: var(--tertiary-color);
+  border-radius: 0.6rem;
 }
 
 @media (max-width: 800px) {
