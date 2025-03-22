@@ -5,6 +5,9 @@ const extras = [
     {name : "Networking Ports", image:"../extras/images/networking-ports.png", link:"https://networking-ports.vercel.app/"},
     {name : "Http Status Codes", image:"../extras/images/status-codes.png", link:"https://status-codes-ten.vercel.app/"},
     {name : "Currency Convertor", image:"../extras/images/currency-convertor.png", link:"https://currency-drab-seven.vercel.app/"},
+    {name: "Bingo!", image:"../extras/images/bingo.png", link:"https://bingo-game-gamma.vercel.app/"},
+    {name:"Stopwatch Timer", image:"../extras/images/stopwatch.png", link:"https://stopwatch-timer-fawn.vercel.app/"},
+    {name:"Countdown Timer", image:"../extras/images/countdown.png", link:"https://countdown-timer-ten-amber.vercel.app/"},
 ]
 
 const container = document.querySelector("#extras-container");
