@@ -8,6 +8,7 @@ const extras = [
     {name: "Bingo!", image:"../extras/images/bingo.png", link:"https://bingo-game-gamma.vercel.app/"},
     {name:"Stopwatch Timer", image:"../extras/images/stopwatch.png", link:"https://stopwatch-timer-fawn.vercel.app/"},
     {name:"Countdown Timer", image:"../extras/images/countdown.png", link:"https://countdown-timer-ten-amber.vercel.app/"},
+    {name:"Fakebook", image:"../extras/images/fakebook.png", link:"https://fakebook-silk-mu.vercel.app/"},
 ]
 
 const container = document.querySelector("#extras-container");
