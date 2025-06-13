@@ -2,7 +2,7 @@ const projects = [
   {
     name: "Fakebook",
     image: "/extras/images/fakebook.png", 
-    link: "https://fakebook-silk-mu.vercel.app/",
+    link: "https://simulation-silk-mu.vercel.app/",
     description: "A mock social media platform to spread awareness about phishing and credential security. A cybersecurity project."
   },
 ];
