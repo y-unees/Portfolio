@@ -14,6 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  padding-top: 50px;
+}
+
 .navbar{
   background-color: #06566e;
   position: relative;
